@@ -161,6 +161,11 @@ console.log(jsWorkshop);
 // ADVANCED TRACK
 // 14. Create an empty object called "books".
 
+console.log("Question 14");
+var books = {}; 
+console.log(books);
+
+
 // 15. Create three book objects that contain book titles, their author, and number of pages.
 //     The name of each object should be some kind of made up ISBN number.
 //     (Feel free to make up the titles. And the authors. Have fun. No pressure.)
