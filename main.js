@@ -188,14 +188,48 @@ console.log(books);
     //                             pages: 569,
     //                           }
     //             }
+    
+console.log("Question 15");
+var books = {b1:{title:"Alchemist" ,author: "Paulo Coehlo", pages:300},
+	b2:{title:"To kill a mocking bird",author: "Harper Lee", pages: 200},
+	b3:{title:"The catcher in the rye",author: "J.D.Salinger", pages: 190}
+}; 
+console.log(books);
+    
 
 // 16. Access the author of the first book.
 
+console.log("Question 16");
+var books = {b1:{title:"Alchemist" ,author: "Paulo Coehlo", pages:300},
+	b2:{title:"To kill a mocking bird",author: "Harper Lee", pages: 200},
+	b3:{title:"The catcher in the rye",author: "J.D.Salinger", pages: 190}
+}; 
+console.log(books.b1.author);
+
+
 // 17. Get the length of the author the the third book.
+
+console.log("Question 16");
+var books = {b1:{title:"Alchemist" ,author: "Paulo Coehlo", pages:300},
+	b2:{title:"To kill a mocking bird",author: "Harper Lee", pages: 200},
+	b3:{title:"The catcher in the rye",author: "J.D.Salinger", pages: 190}
+}; 
+console.log(books.b3.author.length);
+
 
 // 18. To each book object variable, add a key of "dateRead" with a value of the year you read the book.
 //     (Go ahead and make this up, too. Get wild.)
 
+
+
 // 19. Remove the second book from the books object.
+
+console.log("Question 16");
+var books = {b1:{title:"Alchemist" ,author: "Paulo Coehlo", pages:300},
+	b2:{title:"To kill a mocking bird",author: "Harper Lee", pages: 200},
+	b3:{title:"The catcher in the rye",author: "J.D.Salinger", pages: 190}
+}; 
+delete books.b2;
+console.log(books);
 
 // 20. Explain, in your own words, the difference between Literal Notation and Constructor Notation.
