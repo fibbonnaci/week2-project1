@@ -129,11 +129,33 @@ console.log("Lauren's appetizer is "+ (invitees.adults[2].dinnerChoice[0])+". Sh
 
 // 10. Create an empty object called "jsWorkshop" using Constructor Notation.
 
+console.log("Question 10");
+var jsWorkshop = new Object();
+console.log(jsWorkshop);
+
 // 11. To your "jsWorkshop" object, assign a key of "classmates" with the value being an array of five your classmates.
+
+console.log("Question 11");
+var jsWorkshop = new Object();
+jsWorkshop.classmates=["A","B","C","D","E"];
+console.log(jsWorkshop);
+
 
 // 12. Get the length of the fourth classmate's name.
 
+console.log("Question 12");
+var jsWorkshop = new Object();
+jsWorkshop.classmates=["A","B","C","D","E"];
+console.log(jsWorkshop.classmates[3].length);
+
+
 // 13. Clear the classmates value.
+
+console.log("Question 11");
+var jsWorkshop = new Object();
+jsWorkshop.classmates=["A","B","C","D","E"];
+jsWorkshop.classmates=[];
+console.log(jsWorkshop);
 
 
 // ADVANCED TRACK
