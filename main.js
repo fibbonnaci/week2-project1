@@ -190,10 +190,14 @@ console.log(books);
     //             }
     
 console.log("Question 15");
-var books = {b1:{title:"Alchemist" ,author: "Paulo Coehlo", pages:300},
-	b2:{title:"To kill a mocking bird",author: "Harper Lee", pages: 200},
-	b3:{title:"The catcher in the rye",author: "J.D.Salinger", pages: 190}
+var books ={};
+var b1= {title:"Alchemist" ,author: "Paulo Coehlo", pages:300};
+var b2={title:"To kill a mocking bird",author: "Harper Lee", pages: 200};
+var b3={title:"The catcher in the rye",author: "J.D.Salinger", pages: 190};
 }; 
+books.ISBN1111= b1;
+books.ISBN1222= b2;
+books.ISBN1333= b3;
 console.log(books);
     
 
